@@ -24,5 +24,6 @@ name='mlproject',
 version='0.0.1',
 author='Noel Stany',
 author_email='stanynoel4@gmail.com',
+packages=find_packages(),
 py_modules=get_requirements("requirements.txt"),
 )
